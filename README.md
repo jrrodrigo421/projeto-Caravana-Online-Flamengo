@@ -7,6 +7,10 @@
   https://caravana-jogos-mengao-srs.netlify.app/
 <br>
 <br>
+<video width="320" height="240" controls>
+  <source src="introSite.mp4" type="video/mp4">
+</video>
+
 <br>
 
 
