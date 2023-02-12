@@ -1,9 +1,4 @@
-
-
-
 // Link "Proximas Partidas:"
-
-
 document.getElementById("myButton").addEventListener("click", function() {
   window.location.href = "https://api.whatsapp.com/send?phone=5535999539535";
 });
@@ -39,7 +34,7 @@ headers: {
 .then(response => response.json())
 .then(data => {
 let fixtures = data.api.fixtures;
-console.log(fixtures)
+// console.log(fixtures)
 let html = '';
 fixtures.forEach(fixture => {
   let opponent = fixture.homeTeam.team_id === 127 ? fixture.awayTeam.team_name : fixture.homeTeam.team_name;
