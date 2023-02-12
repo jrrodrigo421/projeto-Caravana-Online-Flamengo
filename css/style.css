@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(../Sem\ título.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  /* opacity: 0.5; */
+}
+
+header {
+  background-color: #bf0b1a;
+  font-size: larger;
+  color: rgb(234, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+}
+
+section {
+  width: 50%;
+  text-align: center;
+}
+
+footer {
+  background-color: #bf0b1a;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  section {
+    width: 100%;
+  }
+}
